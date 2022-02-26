@@ -67,7 +67,12 @@ Instructions
             
  
            
-           
-                
-           
+          
+Issues:
+Hostapd not starting...
+>sudo service hostapd status
+returns hostapd is masked. Run these commands
+>sudo systemctl unmask hostapd
+>sudo systemctl enable hostapd
+>sudo systemctl start hostapd
           
