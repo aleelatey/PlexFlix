@@ -26,19 +26,20 @@ This is the record of my attempt to create a fully portable Plex install
 
 # Instructions
    ### Wireless access point instructions
-       I tried a few work instructions with limited success. The instructions here are the only ones that worked:
+   
+   I tried a few work instructions with limited success. The instructions here are the only ones that worked:
        
-       https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all
+   https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all
        
-    ### Plex server
-        #### Installation
-          Use these instructions:
-           https://pimylifeup.com/raspberry-pi-plex-server/
+   ### Plex server
+   #### Installation
+   Use these instructions:
+        https://pimylifeup.com/raspberry-pi-plex-server/
           Stop after the instalation instructions.
           Static IP is not needed.
         
-        #### Before creating the libraries:
-          Create folders on the external hard drive (ony create the folders you will be using)
+   #### Before creating the libraries:
+   Create folders on the external hard drive (ony create the folders you will be using)
              Videos/
                 TV
                 Movies
@@ -55,19 +56,19 @@ This is the record of my attempt to create a fully portable Plex install
          #### Create libraries
             Create the libraries you require for your share. Plex will automaticaly start scanning.
             
-            I have not moved the database so there are a few optional setting to change if your SD card is less than 32gb.
+   I have not moved the database so there are a few optional setting to change if your SD card is less than 32gb.
             
-            Turn off all the options for trailers and video previews under Libraries / Setting / Advanced.
+   Turn off all the options for trailers and video previews under Libraries / Setting / Advanced.
             
-          Share the libraries with the Guest user.
-          
-      You should be able to access the libraries through the LAN address and via the wifi connection.
+   Share the libraries with the Guest user.
+       
+   You should be able to access the libraries through the LAN address and via the wifi connection.
       
    ## To do...
-      - [ ] Add captive portal software to simplify connecting to the unit
-      - [ ] Add file sharing - books, etc
-      - [ ] Duplicate Wikipedia locally
-      - [ ] Automatic updates from USB stick
+   - [ ] Add captive portal software to simplify connecting to the unit
+   - [ ] Add file sharing - books, etc
+   - [ ] Duplicate Wikipedia locally
+   - [ ] Automatic updates from USB stick
       
             
  
