@@ -25,19 +25,19 @@ This is the record of my attempt to create a fully portable Plex install
   * Add Plex server
 
 # Instructions
-   ###Wireless access point instructions
+   ### Wireless access point instructions
        I tried a few work instructions with limited success. The instructions here are the only ones that worked:
        
        https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all
        
-    ###Plex server
-        ####Installation
+    ### Plex server
+        #### Installation
           Use these instructions:
            https://pimylifeup.com/raspberry-pi-plex-server/
           Stop after the instalation instructions.
           Static IP is not needed.
         
-        ####Before creating the libraries:
+        #### Before creating the libraries:
           Create folders on the external hard drive (ony create the folders you will be using)
              Videos/
                 TV
@@ -52,7 +52,7 @@ This is the record of my attempt to create a fully portable Plex install
                       - add this to "List of IP address allowed access without auth" changing the IP addresses to your LAN and the AP you created earlier
                         192.168.1.1/255.255.255.0,192.168.2.1/255.255.255.0
               Users and Sharing - enable Guest
-         ####Create libraries
+         #### Create libraries
             Create the libraries you require for your share. Plex will automaticaly start scanning.
             
             I have not moved the database so there are a few optional setting to change if your SD card is less than 32gb.
@@ -63,7 +63,7 @@ This is the record of my attempt to create a fully portable Plex install
           
       You should be able to access the libraries through the LAN address and via the wifi connection.
       
-   ##To do...
+   ## To do...
       - [ ] Add captive portal software to simplify connecting to the unit
       - [ ] Add file sharing - books, etc
       - [ ] Duplicate Wikipedia locally
@@ -73,9 +73,9 @@ This is the record of my attempt to create a fully portable Plex install
  
            
           
-##Issues:
+## Issues:
 
-####Hostapd not starting...
+#### Hostapd not starting...
 ```
 >sudo service hostapd status
 returns hostapd is masked. Run these commands
