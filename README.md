@@ -30,7 +30,7 @@ This is the record of my attempt to create a fully portable Plex install
    I tried a few work instructions with limited success. The instructions here are the only ones that worked:
        
    ~~https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all~~
-   
+   https://pimylifeup.com/raspberry-pi-wireless-access-point/comment-page-1/
        
    ### Plex server
    #### Installation
